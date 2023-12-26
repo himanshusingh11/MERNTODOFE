@@ -10,7 +10,7 @@ function App() {
   const [task, setTask] = useState("");
   const [showToast, setShowToast] = useState(false);
 
-  const API_URL = "http://localhost:5000/api/todos";
+  const API_URL = "https://merntodobackend-theta.vercel.app/api/todos";
 
   useEffect(() => {
     fetch(API_URL)
